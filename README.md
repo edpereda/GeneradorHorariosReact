@@ -1,3 +1,18 @@
+# Generador de Horarios hecho con React
+Aplicación web con una interfaz sencilla, que permita a los estudiantes ingresar sus materias con sus respectivas horas y la aplicación realiza todos las combinaciones posibles con las materias ingresadas, permitiendo al alumno generar horarios de manera mas rapida y simple. Todo el tráfico en la aplicación analizado con Google Analytics.
+
+### Realizado en el año 2020. Node JS, React, Create React App, Materialize, npm, Uid, Google Analytics.
+
+## Problemática
+Los usuarios son estudiantes del Instituto Politecnico Nacional, cada inicio de semestre deben armar un horario con las materias que son publicadas en sus respectivas plataformas en línea (SAES). El problema es que les lleva mas de 4 horas en encontrar la combinación de materias, sin tantos huecos. Pero hay que añadir, que cuando los alumnos se tienen que inscribir con su horario, muchas veces el cupo de los grupos se llena, por lo que los obliga a tener que buscar alternativas, o en el peor de los casos, crear otro horario completamente nuevo. Además, no siempre aprovechan las horas de las materias al máximo, dejando huecos y horas muertas entre clases.
+
+## Objetivos
+- Interfaz simple.
+- La aplicación avise al usuario si lo que quiere intentar es posible.
+- Responsive
+- Guarde los horarios generados con Local Storage
+- Permita al usuario seleccionar las materias con las que quiera realizar las combinaciones.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -37,32 +52,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
