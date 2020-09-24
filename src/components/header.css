@@ -1,0 +1,16 @@
+.help-button {
+    height: 1cm;
+    margin-top: 20px;
+    margin-right: 1px;
+    float: right;
+}
+
+.help-button:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+}
