@@ -1,0 +1,10 @@
+.horarios-generados{
+    margin: 1px solid blue;
+    background-color: rgb(29, 135, 206);
+}
+
+.horarios-generados > h3{
+    color: white;
+    text-align: center;
+    padding: 2px;
+}

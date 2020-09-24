@@ -1,0 +1,47 @@
+table{
+    background-color: white;
+}
+
+.error{
+    border: 2px solid red;
+    background-color: rgb(230, 76, 89);
+    color: white;
+    display: flex;
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: auto;
+}
+
+.success{
+    border: 2px solid green;
+    background-color: rgb(68, 216, 117);
+    color: white;
+    display: flex;
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: auto;
+}
+
+.boton-ingresar{
+    margin-top: 2rem;
+}
+
+.boton-borrar{
+    margin-top: 2px;
+    font-weight: 900;
+}
+
+.tabla-horarios{
+    border: 2px solid blue;
+}
+
+.tabla-seleccion-horarios{
+    border: 2px solid green;
+}
+
+.fields{
+    border: 2px solid rgb(30, 169, 194);
+    background-color: white;
+}
